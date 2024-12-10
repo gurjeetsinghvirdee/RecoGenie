@@ -2,9 +2,10 @@ package appwrite
 
 import (
 	"context"
-	"os"
 	"fmt"
 	"log"
+	"os"
+	"sort"
 
 	"github.com/appwrite/sdk-for-go/appwrite"
 )
@@ -274,7 +275,7 @@ func (re *RecommendationEngine) Train(ctx context.Context, ratings []map[string]
 	return nil
 }
 
-func main() {
+func recommend() {
 	// Load the environment variables
 	endpoint := os.Getenv("APPWRITE_ENDPOINT")
 	databaseID := os.Getenv("APPWRITE_DATABASE_ID")

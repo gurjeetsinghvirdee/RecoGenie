@@ -3,7 +3,6 @@ package appwrite
 import (
 	"context"
 	"github.com/appwrite/sdk-for-go/appwrite"
-	"github.com/appwrite/sdk-for-go/databases"
 )
 
 // Client represents an Appwrite client
