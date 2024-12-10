@@ -1,7 +1,7 @@
-module RecoGenie
+module github.com/gurjeetsinghvirdee/RecoGenie
 
-go 1.23.4
+go 1.20
 
 require (
-	github.com/appwrite/sdk-for-go v0.2.0
+	github.com/appwrite/sdk-for-go v1.2.2
 )
